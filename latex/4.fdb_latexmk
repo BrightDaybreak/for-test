@@ -1,0 +1,22 @@
+# Fdb version 4
+["pdflatex"] 1681198913 "c:/Other_Language/latex/4.tex" "4.pdf" "4" 1681198915 2
+  "4.aux" 1681198747 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "4.tex" 1681198905 4736 9c9b531f4558e204402895dd6252e728 ""
+  "c:/Other_Language/latex/4.tex" 1681198905 4736 9c9b531f4558e204402895dd6252e728 ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1671076798 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty" 1671076997 5319 48d7f3cfa322abd2788e3c09d624b922 ""
+  "c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty" 1671076895 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
+  "c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg" 1671077054 1830 e31effa752c61538383451ae21332364 ""
+  "c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty" 1671077054 80964 64e57373f36316e4a09b517cbf1aba2e ""
+  "c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty" 1671077054 77022 ee25ce086f4a79d8cf73bac6f94c02a5 ""
+  "c:/texlive/2022/texmf-dist/tex/platex/base/jarticle.cls" 1671077155 25873 fd34d08164a3ea7afd6bc7fe99629a3d ""
+  "c:/texlive/2022/texmf-dist/web2c/texmf.cnf" 1671076709 40171 cdab547de63d26590bebb3baff566530 ""
+  "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1671077309 115598 590b96f28a57cc3932e6878b274ec74d ""
+  "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1671077330 1696519 8cb321974125c7185be0b0b66dc8d9db ""
+  "c:/texlive/2022/texmf.cnf" 1671077304 713 e69b156964470283e0530f5060668171 ""
+  "jikken.cls" 1675164415 5035 33abb15e150aad18b5ab5b47f8c2ed93 ""
+  "jlisting.sty" 1671517855 6230 9fa8fe97d5afbd5a433990256cc4d5a3 ""
+  (generated)
+  "4.log"
+  "4.pdf"
+  (rewritten before read)

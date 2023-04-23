@@ -1,0 +1,120 @@
+%
+% 言語処理系実験 最終報告用 LaTeX のひな型ファイル
+%
+% 表紙だけを作るのにも報告書全体を作るのにも使える
+%
+\documentclass[indiv]{jikken}   % 実験報告用クラスファイル (jikken.cls) が必要
+\usepackage[dvipdfmx]{graphicx}  %pngファイルを貼り付けるのに必要
+\usepackage[dvipdfmx]{color}
+\usepackage{listings, jlisting}
+\usepackage{color}
+\usepackage{float}
+\usepackage{ascmac}
+\usepackage{amsmath}
+
+\lstset{
+	%プログラム言語(複数の言語に対応，C,C++も可)
+ 	language = Python,
+ 	%背景色と透過度
+ 	backgroundcolor={\color[gray]{.90}},
+ 	%枠外に行った時の自動改行
+ 	breaklines = true,
+ 	%自動改行後のインデント量(デフォルトでは20[pt])	
+ 	breakindent = 10pt,
+ 	%標準の書体
+ 	basicstyle = \ttfamily\scriptsize,
+ 	%コメントの書体
+ 	commentstyle = {\itshape \color[cmyk]{1,0.4,1,0}},
+ 	%関数名等の色の設定
+ 	classoffset = 0,
+ 	%キーワード(int, ifなど)の書体
+ 	keywordstyle = {\bfseries \color[cmyk]{0,1,0,0}},
+ 	%表示する文字の書体
+ 	stringstyle = {\ttfamily \color[rgb]{0,0,1}},
+ 	%枠 "t"は上に線を記載, "T"は上に二重線を記載
+	%他オプション：leftline，topline，bottomline，lines，single，shadowbox
+ 	frame = TBrl,
+ 	%frameまでの間隔(行番号とプログラムの間)
+ 	framesep = 5pt,
+ 	%行番号の位置
+ 	numbers = left,
+	%行番号の間隔
+ 	stepnumber = 1,
+	%行番号の書体
+ 	numberstyle = \tiny,
+	%タブの大きさ
+ 	tabsize = 4,
+ 	%キャプションの場所("tb"ならば上下両方に記載)
+ 	captionpos = t,
+    %空白を表示するかどうか
+    showstringspaces = false,
+}
+\setcounter{secnumdepth}{3}  %目次のために必要
+
+%%% 通常は書き換え不要
+\renewcommand{\実験名}{アナログ/ディジタルフィルタによる信号処理}
+\renewcommand{\作成日}{2023年4月11日}
+\renewcommand{\学年}{2}
+%\renewcommand{\学年}{3}
+
+\newcommand{\本年}{2022年}
+\newcommand{\次年}{2023年}
+
+%%%11/29, 12/06, 12/13, 12/20, 01/17, 01/24, 01/31
+%%% \num 月 \num 日 を実施日に書き換える
+\newcommand{\実施日１}{\本年 4 月 11 日}
+\newcommand{\実施日２}{\本年 4 月 18 日}
+\newcommand{\実施日３}{\本年 4 月 25 日}
+\newcommand{\実施日４}{\本年 5 月 9 日}
+\newcommand{\実施日５}{\次年 5 月 16 日}
+\newcommand{\実施日６}{\次年 5 月 23 日}
+\newcommand{\実施日７}{\次年 5 月 30 日}
+
+%%% {\samplenum}{\samplename} を報告者の番号と氏名に書き換える
+\newcommand{\報告者}{\番号と氏名{421858}{若山陽向}}
+%%% 言語処理系実験では以下の共同実験者の記述は不要
+%\newcommand{\実験者１}{\番号と氏名{\samplenum}{\samplename}}
+%\newcommand{\実験者２}{\番号と氏名{\samplenum}{\samplename}}
+%\newcommand{\実験者３}{\番号と氏名{\samplenum}{\samplename}}
+%\newcommand{\実験者４}{\番号と氏名{\samplenum}{\samplename}}
+%\newcommand{\実験者５}{\番号と氏名{\samplenum}{\samplename}}
+%\newcommand{\実験者６}{\番号と氏名{\samplenum}{\samplename}}
+%\newcommand{\実験者７}{\番号と氏名{\samplenum}{\samplename}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\表紙  % 報告書の表紙を作る
+
+%%% 報告書全体を作るなら以下を書き換える (構成は自由に変えてよい)
+%
+
+\tableofcontents  %目次を作る
+\clearpage
+
+\begin{section}{目的}     
+    今回の目的は、第1回の課題のまとめとなるpdfを作成することである。
+\end{section}
+
+\begin{section}{このレポートの構成}
+    \ref{メイン}章にグラフを埋め込んだ。
+\end{section}
+
+\begin{section}{実験方法}
+    RとOctaveを使った。
+\end{section}
+
+
+\begin{section}{実験結果、動作試験、およびプログラムの詳細解説}
+	\label{メイン}
+    \begin{figure}[H]
+        \begin{center}
+         \resizebox{12cm}{!}{\includegraphics{kernel_calc.png}}
+         \caption{参考図}\label{picture:kernel_calc}
+        \end{center}
+    \end{figure}
+\end{section}
+
+
+\end{document}
